@@ -1,20 +1,27 @@
 import React from 'react';
 import './Product.css'
 
-export default function Product() {
+export default function Product({id, title, price, rating, image }) {
     return (
         <div>
             <div className="product">
                 <div className="product__info">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p>{title}</p>
                     <div className="product__price">
-                        <small>
-                            30$
-                        </small>
+                        <small>$</small>
+                        <strong>
+                            {price}
+                        </strong>
                         </div>
-                    <div className="product__rating">⭐⭐⭐⭐⭐</div>
+                    <div className="product__rating">
+                    {Array(rating)
+                    .fill()
+                    .map((_, i) => (
+                        <p>⭐</p>
+                    ))}
+                    </div>
                 </div>
-                <img src="https://images-na.ssl-images-amazon.com/images/I/71mEsHyzSCL._SL1000_.jpg" alt="" />
+                <img src={image} alt="" />
             </div>
         </div>
     )
