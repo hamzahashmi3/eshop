@@ -1,4 +1,9 @@
 #project console is deployed on this link
+
+https://eshop-amazon-clone-p1.vercel.app/
+
+
+
 https://console.firebase.google.com/u/0/project/eshop-p1/overview
 
 https://eshop-p1.web.app/
