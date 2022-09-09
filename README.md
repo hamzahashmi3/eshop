@@ -1,3 +1,16 @@
+#project console is deployed on this link
+
+https://eshop-amazon-clone-p1.vercel.app/
+
+
+
+https://console.firebase.google.com/u/0/project/eshop-p1/overview
+
+https://eshop-p1.web.app/
+
+https://eshop-p1.firebaseapp.com/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
